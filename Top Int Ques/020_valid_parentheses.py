@@ -28,7 +28,7 @@ class Solution(object):
                 # Find the index of the element in close_brackets
                 ind = close_brackets.index(ch)
                 # If stack is not empty and element at same index in open_brackets is the same element at the bottom of the stack
-                if ((len(st) > 0) and (open_brackets[ind] == st[len(st) - 1])):
+                if ((len(st) > 0) and (open_brackets[ind] == st[-1])):
                     # Remove the last element from the stack
                     st.pop()
                 else:
