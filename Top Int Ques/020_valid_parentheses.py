@@ -37,4 +37,6 @@ class Solution(object):
         if len(st) == 0:
             # Return True
             return True
+        else:
+            return False
             
